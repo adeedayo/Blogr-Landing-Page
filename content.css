@@ -6,7 +6,7 @@
   text-align:center;
 }
 .editor-illustration{
-  background:url("../images/illustration-editor-mobile.svg");
+  background:url("illustration-editor-mobile.svg");
 background-size: cover;
 background-position:center;
 height: 400px;
@@ -38,7 +38,7 @@ height: 400px;
 .phones-image{
   position:relative;
   z-index:2;
-  background:url("../images/illustration-phones.svg");
+  background:url("illustration-phones.svg");
 background-size: cover;
 background-position:center;
   height:400px;
@@ -88,7 +88,7 @@ align-items: flex-end;
 }
 
  .editor-illustration{
-   background:url("../images/illustration-editor-desktop.svg");
+   background:url("illustration-editor-desktop.svg");
 background-size: cover;
 background-position:center;
 width: 50%;
@@ -137,7 +137,7 @@ width: 50%;
 }
 
 .laptop-image{
-  background:url("../images/illustration-laptop-desktop.svg");
+  background:url("illustration-laptop-desktop.svg");
 background-size: cover;
 background-position:center;
  height:600px;
