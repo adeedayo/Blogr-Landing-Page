@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+.header{
+  position:relative;
+padding-top:2rem;
+padding-left:2rem;
+padding-right:2rem;
+padding-bottom:35rem;
+text-align:center;
+border-radius: 0 0 0 70px;
+background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%)), url("../images/bg-pattern-intro-mobile.svg") ;
+background-size: cover;
+background-position:center;
+height:420px;
+}
+
+.header-logos{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom: 5rem;
+}
+.hidden{
+  display:none;
+}
+.header-text{
+  font-family:'Overpass',Sans-serif;
+  color:white;
+}
+.heading{
+
+  /*letter-spacing: 2px;*/
+  font-family:'Ubuntu',Sans-serif;
+  font-size: 25px;
+  font-weight:600;
+  margin-bottom:1rem
+}
+.btns-div{
+  
+  
+  margin-top:3rem;
+  margin-bottom:10rem;
+}
+.btn{
+  font-weight:500;
+  color:hsl(353, 100%, 62%);
+  border-radius:50px;
+  border: 1px solid var(--White);
+  padding:1rem;
+  letter-spacing: 1px;
+}
+.learn-more-btn{
+  border:1px solid white;
+  color:white;
+  background-color: var(--LightRed);
+}
+.hidden-mobile-menu{
+  transition: transform 0.5s ease-in;
+  color:hsl(208, 49%, 24%); 
+  font-weight:500;
+  font-family:'Overpass',Sans-serif;
+  text-align:center;
+  width:85%;
+  position:absolute;
+  top:17%;
+  padding:2.5rem 0;
+  background-color:white;
+  border-radius:7px;
+}
+.menu-flex{
+  margin-bottom:2rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+}
+.contacts{
+  padding-top: 1.5rem;
+  padding-bottom:1.5rem;
+  margin:1.5rem;
+  background-color:hsl(240, 2%, 95%);
+  border-radius:10px;
+}
+.contacts p:not(:last-of-type){
+  margin-bottom:1.8rem;
+}
+.login{
+  padding-top:2rem;
+  border-top:1px solid hsl(240, 2%, 79%);
+}
+.signup{
+  margin-top:1.5rem;
+  width:150px;
+  color:white;
+  background:linear-gradient(to right,hsl(355, 100%, 74%),hsl(356, 100%, 66%));
+}
+
+.desktop-menu{
+    display: none;
+  }
+  
+  .desktop{
+    display:none;
+  }
+  
+@media screen and (min-width:769px){
+  .desktop-menu{
+    color: white;
+    display: flex;
+    align-items:center ;
+    gap: 1.5rem;
+    
+  }
+  
+    .desktop{
+    display:none;
+  }
+  
+  .flexing{
+    display: flex;
+    align-items: center;
+  }
+  .menu-bar{
+    display: none;
+  }
+  .desktop-login{
+    display: flex;
+    align-items: vertical;
+    gap: 1rem;
+  }
+  .desktop-login p{
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+
+  .desktop-signup-btn{
+    width:150px;
+  color:var(--LightRed);
+  background-color: white;
+  font-weight:500;
+  color:hsl(353, 100%, 62%);
+  border-radius:50px;
+  border: 1px solid var(--White);
+  padding:1rem;
+  letter-spacing: 1px;
+
+  }
+  .heading{
+    font-size: 40px;
+  }
+  .buttons:not(:last-of-type){
+margin-right: 1.5rem;
+  }
+  .btn{
+    width:150px;
+
+  }
+}

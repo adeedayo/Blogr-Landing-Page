@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+:root{
+  --Verylightred: hsl(13, 100%, 72%)
+--Lightred: hsl(353, 100%, 62%)
+  --Verydarkgrayblue: hsl(237, 17%, 21%)
+--Verydarkdesaturatedblue: hsl(237, 23%, 32%)
+--White: hsl(0, 0%, 100%)
+--Grayishblue: hsl(240, 2%, 79%)
+--Verydarkgrayishblue: hsl(207, 13%, 34%)
+--Verydarkblackblue: hsl(240, 10%, 16%)
+--Lightred: hsl(356, 100%, 66%)
+--Verylightred: hsl(355, 100%, 74%)
+--Verydarkblue: hsl(208, 49%, 24%)
+}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+.container{
+  background-color:hsl(240, 2%, 95%) ;
+overflow-x: hidden;
+}

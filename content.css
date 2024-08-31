@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.content-1{
+  padding:1rem 1.5rem;
+  margin-top:4rem;
+  text-align:center;
+}
+.editor-illustration{
+  background:url("../images/illustration-editor-mobile.svg");
+background-size: cover;
+background-position:center;
+height: 400px;
+}
+/*.illustration-img
+{
+  padding:0;
+  margin:0;
+  margin-top:2rem;
+  margin-bottom:2rem;
+  margin-left:-50px;
+}*/
+.sub-heading{
+  font-family: 'Ubuntu',Sans-Serif;
+  font-size:25px;
+  margin-bottom:1.5rem;
+  color:hsl(237, 23%, 32%);
+}
+.paragraph{
+ /* line-height:1.2rem;*/
+ font-family:'Overpass',Sans-Serif;
+  color:hsl(207, 13%, 34%);
+  margin-bottom:3rem;
+}
+.phones-div{
+  position:relative;
+  margin-bottom:20rem;
+}
+.phones-image{
+  position:relative;
+  z-index:2;
+  background:url("../images/illustration-phones.svg");
+background-size: cover;
+background-position:center;
+  height:400px;
+}
+
+.phones-text-container{
+  position:absolute;
+  top:50%;
+  z-index:1;
+  padding-top:12rem ;
+  padding-bottom:5rem;
+  padding-right:1.5rem;
+  padding-left:1.5rem;
+  border-radius:0 60px 0 60px;
+  text-align:center;
+  color:white;
+  background-color:hsl(237, 23%, 32%);
+}
+
+.content-2{
+  padding: 0 1.5rem;
+ /* margin-top:4rem;*/
+  text-align:center;
+}
+.laptop-image-container{
+  
+}
+.laptop-image{
+  background:url("../images/illustration-laptop-mobile.svg");
+background-size: cover;
+background-position:top;
+height:400px;
+}
+
+@media screen and (min-width:769px){
+  .content-1{
+    margin-top:10rem;
+    margin-bottom: 9rem;
+    padding-left: 6rem;
+    text-align: left;
+  }
+
+.editor-text-image{
+ display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+
+ .editor-illustration{
+   background:url("../images/illustration-editor-desktop.svg");
+background-size: cover;
+background-position:center;
+width: 50%;
+order: 2;
+margin-right: -13rem;
+}
+.editor-text{
+order: 1;
+width: 50%;
+}
+
+.centered-heading{
+  margin-bottom:7rem ;
+  font-size: 30px;
+  text-align: center;
+}
+.phones-div{
+  margin-bottom:5rem;
+}
+.phones-text-container{
+  position:absolute;
+  top:15%;
+  padding-top:10rem;
+  padding-bottom:10rem;
+  padding-right:7rem;
+  border-radius:0 100px 0 100px;
+}
+.phones-image{
+  margin-left:4rem;
+  height: 800px;
+  width:50%;
+}
+
+.phones-text{
+  text-align:left;
+  width:40%;
+  margin-left: 50rem;
+}
+
+.content-2{
+  text-align: left;
+  padding-right:7.5rem;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.laptop-image{
+  background:url("../images/illustration-laptop-desktop.svg");
+background-size: cover;
+background-position:center;
+ height:600px;
+width: 50%;
+margin-left: -13rem;
+}
+.content-2-text{
+  width:50%;
+}
+}
